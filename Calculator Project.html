@@ -6,39 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator Project</title>
     <!-- <link rel="icon" href="./im"> -->
+    
 </head>
 <body>
     <table>
     <div>
       
-        <input type="text">
+        <input type="text" id="main">
       
         <h1>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
+        <button id="1" onclick="typist(1)">1</button>
+        <button id="2" onclick="typist(2)">2</button>
+        <button id="3" onclick="typist(3)">3</button>
         </h1>
         <h2>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
+        <button id="4" onclick="typist(4)">4</button>
+        <button id="5" onclick="typist(5)">5</button>
+        <button id="6" onclick="typist(6)">6</button>
         </h2>
         <h3>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
+        <button id="7" onclick="typist(7)">7</button>
+        <button id="8" onclick="typist(8)">8</button>
+        <button id="9" onclick="typist(9)">9</button>
         </h3>
         <h4>
-        <button>0</button>
+        <button id="0" onclick="typist(0)">0</button>
         </h4>
         <h5>
-            <button>+</button>
-            <button>-</button>
-            <button>/</button>
-            <button>x</button>
-            <button>=</button>
+            <button onclick="typist('+')">+</button>
+            <button onclick="typist('-')">-</button>
+            <button onclick="typist('/')">/</button>
+            <button onclick="typist('*')">*</button>
+            <button onclick="answer()">=</button>
         </h5>
     </div>
     </table>
+<script src="Calculator Project.js"></script>
 </body>
 </html>
